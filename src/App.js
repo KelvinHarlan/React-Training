@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Search from './components/nav/search'
+import Title from './components/title/Title'
+import MainFood from './components/main/Mainfood/MainFood.jsx';
+import MainLunch from './components/main/Mainlunch/Mainlunch';
+import MainIce from './components/main/Mainice/Mainice.jsx'
+import Maincakes from './components/main/Maincakes/Maincakes';
+import FoodOption from './components/main/Foodoptions/Foodoptions.jsx'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title />
+      <Search />
+      <div className='main-container'>
+        <MainFood nome='Food' />
+        <MainLunch nome='Lunch' />
+        <MainIce nome='Ice' />
+        <Maincakes nome="Cakes" />
+
+
+      </div>
+      <h2 className='food-menu'>Food Menu</h2>
+      <div className='food-box'>
+        <FoodOption option='Pizzas' />
+        <FoodOption option='Hot Dogs' />
+        <FoodOption option='hamburgers' />
+        <FoodOption option='Fries' />
+      </div>
     </div>
+
   );
 }
 

@@ -1,0 +1,30 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.mainItem{
+    background-color: rgb(255, 0, 0);
+}
+
+.mainItem ul li a{
+    display: inline-block;
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ffa500;
+    border-radius: .5rem;
+
+}
+
+.faIcons{
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+
+.mainItem ul{
+    padding: 0;
+}
