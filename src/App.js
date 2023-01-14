@@ -23,10 +23,10 @@ function App() {
       </div>
       <h2 className='food-menu'>Food Menu</h2>
       <div className='food-box'>
-        <FoodOption option='Pizzas' />
-        <FoodOption option='Hot Dogs' />
-        <FoodOption option='hamburgers' />
-        <FoodOption option='Fries' />
+        <FoodOption option='Pizzas' bg = 'pizzas'/>
+        <FoodOption option='Hot Dogs' bg = 'hotdogs' />
+        <FoodOption option='hamburgers' bg = 'hamburgers' />
+        <FoodOption option='Fries' bg = 'fries'/>
       </div>
     </div>
 

@@ -1,11 +1,32 @@
 .card a{
   background-color: #e7e7e7;
-  color:  black;
+  color:  rgb(255, 255, 255);
   display: inline-block;
   width: 150px;
   height: 200px;
   border-radius: .5rem;
   padding: 5px;
   margin: .5rem;
- 
+  font-weight: 500;
+}
+
+
+.pizzas{
+  background-image: url('../../../../imagens/f-02.jpg');
+  background-size: 100%;
+}
+
+.hotdogs{
+  background-image: url('../../../../imagens/f-03.jpg');
+  background-size: 100%;
+}
+
+.hamburgers{
+  background-image: url('../../../../imagens/f-01.jpeg');
+  background-size: 100%;
+}
+
+.fries{
+  background-image: url('../../../../imagens/f-04.jpg');
+  background-size: 100%;
 }
