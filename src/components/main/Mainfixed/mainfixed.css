@@ -1,0 +1,36 @@
+.menu-fixed-box{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu-fixed-box ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+
+.menu-fixed-box ul a{
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: .5rem;
+}
+
+.menu-fixed-box ul a:active{
+    color: #fa2121;
+    border-radius: .5rem;
+}
+
+
+.menu-fixed-box a{
+    color: '#000';
+}
