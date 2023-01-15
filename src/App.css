@@ -27,3 +27,56 @@
     box-shadow:0 5px 20px #5454549e ;
     border-radius: 1rem 1rem 0 0;
 }
+
+@media (max-width: 320px){
+   .food-box .card a{
+      width: 250px;
+      height:300px;
+    }
+    .food-box{
+        padding-bottom: 20%;
+    }
+  }
+
+@media (min-width: 374px){
+    .mainItem ul li a{
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+
+
+@media (min-width: 425px){
+    .mainItem ul li a{
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .food-box .card a{
+        width: 170px;
+        height: 220px;
+    }
+
+  }
+
+  @media (min-width: 768px){
+    .search-container{
+        justify-content: center;
+        margin-top: 20px;
+    }    
+
+    .main-container{
+        justify-content: center;
+    }
+    .main-container a{
+        margin: 10px;
+    }
+
+    .food-menu{
+        margin:15px;
+    }
+
+    .menu-fixed-container{
+        display: none;
+    }
+}

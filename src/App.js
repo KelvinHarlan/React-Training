@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <Title />
       <Search />
+      <div className='box-container'>
       <div className='main-container'>
         <MainFood nome='Food' />
         <MainLunch nome='Lunch' />
@@ -35,6 +36,7 @@ function App() {
         <Mainfixed />
       </div>
     </div>
+      </div>
 
   );
 }
